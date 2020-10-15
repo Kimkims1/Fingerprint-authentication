@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
 
         promptInfo = BiometricPrompt.PromptInfo.Builder()
             .setTitle("Biometric Auth")
-            .setSubtitle("Log in using Fingerprint")
+            .setSubtitle("Log in using Fingerprint Sensor")
             .setNegativeButtonText("Use account password")
             .build()
 
